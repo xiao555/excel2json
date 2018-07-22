@@ -1,0 +1,10 @@
+{
+  "runtime~main.js": "./static/js/runtime~main.9518cc10.js",
+  "runtime~main.js.map": "./static/js/runtime~main.9518cc10.js.map",
+  "vendors.js": "./static/js/vendors.74601800.chunk.js",
+  "vendors.js.map": "./static/js/vendors.74601800.chunk.js.map",
+  "main.css": "./static/css/main.0d8a6c64.chunk.css",
+  "main.js": "./static/js/main.bb2c5001.chunk.js",
+  "main.js.map": "./static/js/main.bb2c5001.chunk.js.map",
+  "index.html": "./index.html"
+}
