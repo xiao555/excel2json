@@ -1,5 +1,6 @@
+/*eslint no-eval: 0*/
 import React, { Component } from 'react';
-import xlsx from 'xlsx';
+import xlsx from 'xlsx/dist/xlsx.full.min';
 import stringifyObject from 'stringify-object';
 import Clipboard from 'clipboard';
 import './App.css';
@@ -45,7 +46,7 @@ class App extends Component {
     reader.onload = () => {
       let workbook = xlsx.read(reader.result, { type: 'binary' })
       let data = xlsx.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[this.state.sheet]])
-      let fn = eval(this.state.function)
+      let fn = window.eval(this.state.function)
       let result = fn(data)
       this.setState({
         line: result.length,
