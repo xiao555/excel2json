@@ -11,7 +11,7 @@
     "react-scripts": "2.0.0-next.3e165448",
     "source-map-explorer": "^1.5.0",
     "stringify-object": "^3.2.2",
-    "xlsx": "^0.13.2"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
